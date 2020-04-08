@@ -1,0 +1,109 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #d2d2d2;
+}
+.mb0 {
+    margin-bottom: 0;
+}
+.ml15 {
+    margin-left: 15px;
+}
+.mt10 {
+    border-top: 2px solid #ddd;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.df {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    background-color: #353a40;
+    font-size: 21px;
+    height: 85px;
+}
+.accountColor a {
+    color: #d5d5d5;
+}
+.navColor li a {
+    color: #d5d5d5;
+}
+ul.navbar-nav li a:active {
+    color: #ffffff;
+}
+.account a {
+    color: #000000;
+}
+.myImg {
+    width: 100%;
+}
+.card-header {
+    padding: 15px 0;
+    font-size: 30px;
+    text-align: left;
+}
+span.carousel-control-next-icon, span.carousel-control-prev-icon {
+    padding: 40px;
+    background-color: #424141;
+    background-size: 40px;
+    border-radius: 8px;
+}
+.card-header {
+    background-color: #3e3e3e;
+}
+.card-header p {
+    font-weight: bold;
+    color: #ffffff;
+}
+.card.text-center {
+    width: 85%;
+    margin: 5% auto 0% auto;
+}
+.wrapper-btn-commander {
+    width: 85%;
+    margin: 0.3% auto 7% auto;
+}
+.myBtnCommander {
+    width: 100%;
+}
+.sizeIcon {
+    font-size: 4rem;
+}
+.fs2 {
+    font-size: 2rem;
+}
+.m10 {
+    margin: 0 10px;
+}
+.iconPlus1, .iconMoins1 {
+    color: #3446a7;
+    cursor: pointer;
+}
+.iconPlus2, .iconMoins2 {
+    color: #3446a7;
+    cursor: pointer;
+}
+/* .quantite1, .quantite2 {
+    width: 35px;
+    text-align: center;
+    border: none;
+} */
+.supprimer {
+    font-size: 3rem;
+    margin-top: 10px;
+}
+.dfi {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media (max-width: 767px){
+    .myImg {
+        width: 50%;
+        margin: 3% 0;
+    }
+}
